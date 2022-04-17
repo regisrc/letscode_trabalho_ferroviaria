@@ -11,7 +11,7 @@ namespace letscode_trabalho_ferroviaria.infrastructure.Repositories
             _pathFile = $@"{Directory.GetCurrentDirectory()}..\..\..\..\..\letscode_trabalho_ferroviaria.repository\Database\{pathFile}.json";
         }
 
-        public void Add(List<T> entities) => AddInJson(entities);
+        public virtual void Add(List<T> entities) => AddInJson(entities);
 
         public void AddLinkedList(T entity) => AddInJson(entity);
 
@@ -21,7 +21,7 @@ namespace letscode_trabalho_ferroviaria.infrastructure.Repositories
             File.WriteAllText(_pathFile, json);
         }
 
-        public List<T> GetAll()
+        public virtual List<T> GetAll()
         {
             using (StreamReader r = new StreamReader(_pathFile))
             {
