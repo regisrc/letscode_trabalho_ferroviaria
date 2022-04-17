@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\letscode_trabalho_ferroviaria.crosscutting\letscode_trabalho_ferroviaria.crosscutting.csproj" />
+    <ProjectReference Include="..\letscode_trabalho_ferroviaria.domain\letscode_trabalho_ferroviaria.domain.csproj" />
+    <ProjectReference Include="..\letscode_trabalho_ferroviaria.repository\letscode_trabalho_ferroviaria.infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

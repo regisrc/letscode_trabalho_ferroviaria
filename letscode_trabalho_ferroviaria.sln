@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "letscode_trabalho_ferroviaria", "letscode_trabalho_ferroviaria\letscode_trabalho_ferroviaria.csproj", "{8CBB0DF2-1203-4B76-A2BD-BD37A7ADACB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "letscode_trabalho_ferroviaria.crosscutting", "letscode_trabalho_ferroviaria.crosscutting\letscode_trabalho_ferroviaria.crosscutting.csproj", "{B0718CFF-1F94-4295-9F3A-82FC17C488FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "letscode_trabalho_ferroviaria.application", "letscode_trabalho_ferroviaria.application\letscode_trabalho_ferroviaria.application.csproj", "{46823211-4233-42B2-BF42-23F7370878C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "letscode_trabalho_ferroviaria.domain", "letscode_trabalho_ferroviaria.domain\letscode_trabalho_ferroviaria.domain.csproj", "{D73F70E5-2D0E-434A-AB20-EAD239FF2EE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "letscode_trabalho_ferroviaria.infrastructure", "letscode_trabalho_ferroviaria.repository\letscode_trabalho_ferroviaria.infrastructure.csproj", "{1CB6809F-8418-417F-8DE5-ABE39E043C1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CBB0DF2-1203-4B76-A2BD-BD37A7ADACB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CBB0DF2-1203-4B76-A2BD-BD37A7ADACB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CBB0DF2-1203-4B76-A2BD-BD37A7ADACB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CBB0DF2-1203-4B76-A2BD-BD37A7ADACB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0718CFF-1F94-4295-9F3A-82FC17C488FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0718CFF-1F94-4295-9F3A-82FC17C488FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0718CFF-1F94-4295-9F3A-82FC17C488FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0718CFF-1F94-4295-9F3A-82FC17C488FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46823211-4233-42B2-BF42-23F7370878C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46823211-4233-42B2-BF42-23F7370878C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46823211-4233-42B2-BF42-23F7370878C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46823211-4233-42B2-BF42-23F7370878C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D73F70E5-2D0E-434A-AB20-EAD239FF2EE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D73F70E5-2D0E-434A-AB20-EAD239FF2EE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D73F70E5-2D0E-434A-AB20-EAD239FF2EE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D73F70E5-2D0E-434A-AB20-EAD239FF2EE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CB6809F-8418-417F-8DE5-ABE39E043C1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CB6809F-8418-417F-8DE5-ABE39E043C1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CB6809F-8418-417F-8DE5-ABE39E043C1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CB6809F-8418-417F-8DE5-ABE39E043C1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1A2BE72-AC94-4554-AAC7-4CB22AD73D6D}
+	EndGlobalSection
+EndGlobal

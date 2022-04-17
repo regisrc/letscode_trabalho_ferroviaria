@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\letscode_trabalho_ferroviaria.application\letscode_trabalho_ferroviaria.application.csproj" />
+    <ProjectReference Include="..\letscode_trabalho_ferroviaria.crosscutting\letscode_trabalho_ferroviaria.crosscutting.csproj" />
+  </ItemGroup>
+
+</Project>
