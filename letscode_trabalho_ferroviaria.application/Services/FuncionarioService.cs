@@ -48,9 +48,11 @@ namespace letscode_trabalho_ferroviaria.application.Services
         public FuncionarioEntity GetByName(string name) => _funcionarioRepository.GetAll().Find(x => x.Name == name);
 
         public void PrintAll() => GetAll().ForEach(
-            x => { 
-                Console.WriteLine($"Id: {x.Id}"); 
-                Console.WriteLine($"Nome: {x.Name}\n"); });
+            x =>
+            {
+                Console.WriteLine($"Id: {x.Id}");
+                Console.WriteLine($"Nome: {x.Name}\n");
+            });
 
         public void Update()
         {

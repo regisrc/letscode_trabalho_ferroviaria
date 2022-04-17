@@ -43,12 +43,14 @@ namespace letscode_trabalho_ferroviaria.application.Services
         public List<GerenciamentoTremEntity> GetAll() => _gerenciamentoTremRepository.GetAll();
 
         public void PrintAll() => GetAll().ForEach(
-            x => { 
-                Console.WriteLine($"Id: {x.Id}"); 
-                Console.WriteLine($"Chegada: {x.Chegada}"); 
-                Console.WriteLine($"Saida: {x.Saida}"); 
-                Console.WriteLine($"Nome trem: {x.Trem.Name}"); 
-                Console.WriteLine($"Nome funcionário: {x.FuncionarioAtendimento.Name}\n"); });
+            x =>
+            {
+                Console.WriteLine($"Id: {x.Id}");
+                Console.WriteLine($"Chegada: {x.Chegada}");
+                Console.WriteLine($"Saida: {x.Saida}");
+                Console.WriteLine($"Nome trem: {x.Trem.Name}");
+                Console.WriteLine($"Nome funcionário: {x.FuncionarioAtendimento.Name}\n");
+            });
 
         public void Update()
         {
