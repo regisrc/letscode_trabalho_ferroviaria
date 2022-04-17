@@ -119,5 +119,15 @@ namespace letscode_trabalho_ferroviaria.application.Services
                     Console.WriteLine($"Nome: {x.Name}\n");
                 });
         }
+
+        public TremEntity GetByName(string name)
+        {
+            var tempVagao = _tremRepository.GetLinkedList();
+            while (tempVagao != null && tempVagao.Name != name)
+            {
+                tempVagao = tempVagao.Previous;
+            }
+            return tempVagao;
+        }
     }
 }

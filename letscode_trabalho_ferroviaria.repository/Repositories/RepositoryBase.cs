@@ -8,7 +8,7 @@ namespace letscode_trabalho_ferroviaria.infrastructure.Repositories
 
         public RepositoryBase(string pathFile)
         {
-            _pathFile = pathFile;
+            _pathFile = $@"{Directory.GetCurrentDirectory()}..\..\..\..\..\letscode_trabalho_ferroviaria.repository\Database\{pathFile}.json";
         }
 
         public void Add(List<T> entities) => AddInJson(entities);

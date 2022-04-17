@@ -3,9 +3,9 @@ using letscode_trabalho_ferroviaria.infrastructure.Repositories;
 
 namespace letscode_trabalho_ferroviaria.insfrastructure.Repositories
 {
-    public class FuncionarioRepository : RepositoryBase<FuncionarioEntity>
+    public class GerenciamentoTremRepository : RepositoryBase<GerenciamentoTremEntity>
     {
-        public FuncionarioRepository() : base("Funcionario")
+        public GerenciamentoTremRepository() : base("GerenciamentoTrem")
         { }
     }
 }

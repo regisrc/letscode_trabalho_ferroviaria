@@ -5,7 +5,7 @@ namespace letscode_trabalho_ferroviaria.insfrastructure.Repositories
 {
     public class TremRepository : RepositoryBase<TremEntity>
     {
-        public TremRepository() : base(Directory.GetCurrentDirectory() + @"..\..\..\..\..\letscode_trabalho_ferroviaria.repository\Database\Trem.json")
+        public TremRepository() : base("Trem")
         { }
     }
 }
