@@ -12,6 +12,10 @@ Realizar o cadastro e edição dos dados em arquivo JSON;
 Conter pelo menos 2 testes com a ferramenta que desejar;
 Publicar no github com README explicando o fluxo de trabalho e processo de desenvolvimento, além de como realizar a execução.
 
+## Processo de desenvolvimento
+Comecei fazendo tudo relacionado a funcionário, ali criei uma service, repository e a entidade, esse padrão se manteve pra todo projeto, e em específico no funcionário criei a ```FuncionarioDto.cs```, menos testes unitários, ali, deixei o mais genérico possível para que fosse fácil implementar o gerenciamento de trens,
+após isso, foquei em desenvolver a lista ligada que não tenho muita convivência, após implementar os trens voltei para o gerenciamento dos trens e finalizei a implementação da aplicação. Por fim implementei os testes unitários baseados na classe ```FuncionarioService.cs```. Após isso fiz uma refatoração e por fim limpei o projeto. 
+
 ## Execução
 
 Para a execução do projeto é necessário estar com o .NET 6.0 instalado na maquina. Primeiramente rode a aplicação na sua maquina, após isso escolha o menu que você gostaria de utilizar, os seguintes menus estão disponíveis:
