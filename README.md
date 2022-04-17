@@ -2,7 +2,7 @@
 Trabalho realizado por Filipe Eduardo Regis
 
 ## Descrição
-Desenvolver uma aplicação console que realize o gerenciamento de uma ferroviária e seus trens. Na qual deverá:
+Desenvolver uma aplicação console que realize o gerenciamento de uma ferroviária e seus trens. Na qual deverá conter:
 - cadastro e edição de funcionários 
 - cadastro e edição de trens
 - gerenciamento de chegada e saída dos trens
